@@ -52,3 +52,10 @@ Computational Cost: Fine-tuning BERT is resource-intensive. To address this, the
 Data Preprocessing: Tokenization ensures all texts are of uniform length (via truncation and padding). The script also checks for and handles label mapping.
 
 Error Handling: Extensive use of try-except blocks ensures that errors are reported clearly and the script fails gracefully, aiding debugging and reproducibility.
+
+Challenges and Solutions
+Computational Cost: Fine-tuning BERT is resource-intensive. To address this, the code uses a subset of the training data for demonstration and recommends using a GPU for full-scale training.
+
+Data Preprocessing: Tokenization ensures all texts are of uniform length (via truncation and padding). The script also checks for and handles label mapping.
+
+Error Handling: Extensive use of try-except blocks ensures that errors are reported clearly and the script fails gracefully, aiding debugging and reproducibility.
